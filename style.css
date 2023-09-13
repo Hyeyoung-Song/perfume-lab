@@ -59,6 +59,14 @@ html {
     margin-left: -36vw;
     margin-top: 2vw;
 }
+.slider_p3{
+    font-size: 1.5rem;
+    line-height: 2vw;
+    opacity: 1;
+    text-align: center;
+    margin-left: -36vw;
+    margin-top: 0vw;
+}
 
 .inner_{
     background-color: #000000;
@@ -67,6 +75,29 @@ html {
     height: 100vw;
     margin-top: -29vw;
 }
+
+.mini2{
+    margin-left: 30vw;
+    margin-top: 15vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   @media only screen and (max-width: 800px) {
     html {
@@ -132,7 +163,157 @@ html {
     }
   }
 
-  @media only screen and (max-width: 650px) {
+
+
+
+
+
+
+
+
+@media screen and (min-width:1025px){
+
+    
+.title{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -1vw;
+    background: #000;
+    color: #fff;
+    text-align: center;
+  }
+  .title > div{
+    height: 3vw;
+    font-size: 1.5rem;
+    line-height: 3.4vw;
+    overflow: hidden;
+  }
+  .move-box{
+    will-change: transform; 
+    overflow: hidden;
+  }
+  .marquee-wrap {
+      white-space: nowrap; 
+      display: flex; 
+      align-items: center; 
+      will-change: transform; 
+      width: 100%;
+    }
+    .marquee-box {
+      will-change: transform;
+    }
+    .marquee-wrap.ani{
+      animation: marquee 100s linear infinite;
+    }
+    @keyframes marquee {
+      from { transform: translateZ(0) }
+      to { transform: translate3d(-100%, 0, 0) }
+    }
+
+    .slider .box .details p {
+        margin-right: 0;
+      }
+    .slider .box .details button {
+      padding: 1rem 3rem;
+      color: #fff;
+      border-radius: 2rem;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      -webkit-transition: all .3s ease;
+      transition: all .3s ease;
+    }
+    .slider .box .details button:hover {
+      opacity: .8;
+    }
+    .slider .box .details button:focus {
+      outline: none;
+      border: none;
+    }
+    .slider .box1 {
+      background-image:url(image/trees.jpg);
+    }
+  
+    .slider .box2 {
+      background-image:url(image/the-blowup.jpg);
+      background-size: 100vw;
+    }
+  
+    .slider .box3 {
+        background-image:url(image/christin.jpg);
+        background-size: 85vw 51vw;
+    }
+
+    .slider .box4 {
+        background-image:url(image/the-blowup.jpg);
+    }
+    }
+    .slider .box5 {
+        background-image:url(image/the-blowup.jpg);
+    }
+
+    .slider .illustration {
+      grid-column: 2 / -1;
+      grid-row: 1 / -1;
+      justify-self: center;
+    }
+
+
+
+
+    
+
+
+
+
+
+    
+    /* mobile device : ~767px */
+    @media screen and (max-width:767px){
+        body{
+            background-color: #000;
+        }
+
+
+        .title{
+            display : flex;
+            flex-wrap : wrap;
+            margin : 15vh auto;
+          }
+          .title > div{
+            height : 70px;
+            font-size : 70px;
+            line-height : 70px;
+          /*   border : 3px solid red; */
+            overflow : hidden;
+          }
+          .move-box{
+            will-change: transform; 
+            overflow: hidden;
+          }
+          .marquee-wrap {
+              white-space: nowrap; 
+              display: flex; 
+              align-items: center; 
+              will-change: transform; 
+              width: 100%;
+            }
+            .marquee-box {
+              will-change: transform;
+            }
+            .marquee-wrap.ani{
+              animation: marquee 100s linear infinite;
+            }
+            @keyframes marquee {
+              from { transform: translateZ(0) }
+              to { transform: translate3d(-100%, 0, 0) }
+            }
+    }
+
+}
+
+
+@media only screen and (max-width: 650px) {
     .slider .box .details {
       grid-row: 2 / span 1;
       grid-column: 1 / -1;
@@ -153,78 +334,6 @@ html {
     color: #B5B4B4;
     margin-bottom: 2rem;
     margin-right: 5rem;
-  }
-  @media only screen and (max-width: 800px) {
-    .slider .box .details p {
-      margin-right: 0;
-    }
-  }
-  .slider .box .details button {
-    padding: 1rem 3rem;
-    color: #fff;
-    border-radius: 2rem;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    -webkit-transition: all .3s ease;
-    transition: all .3s ease;
-  }
-  .slider .box .details button:hover {
-    opacity: .8;
-  }
-  .slider .box .details button:focus {
-    outline: none;
-    border: none;
-  }
-  .slider .box1 {
-    background-image:url(image/trees.jpg);
-  }
-
-  .slider .box2 {
-    background-image:url(image/as.jpeg);
-    background-size: 100vw;
-  }
-
-  .slider .box3 {
-    background-color: #00501D;
-  }
-  .slider .box3 .illustration .inner {
-    background-color: #00FF44;
-  }
-  .slider .box3 .illustration .inner::after, .slider .box3 .illustration .inner::before {
-    background-color: rgba(0, 255, 68, 0.4);
-  }
-  .slider .box3 button {
-    background-color: #00FF44;
-  }
-  .slider .box4 {
-    background-color: #554D00;
-  }
-  .slider .box4 .illustration .inner {
-    background-color: #FF4E00;
-  }
-  .slider .box4 .illustration .inner::after, .slider .box4 .illustration .inner::before {
-    background-color: rgba(255, 78, 0, 0.4);
-  }
-  .slider .box4 button {
-    background-color: #FF4E00;
-  }
-  .slider .box5 {
-    background-color: #300050;
-  }
-  .slider .box5 .illustration .inner {
-    background-color: #8000FF;
-  }
-  .slider .box5 .illustration .inner::after, .slider .box5 .illustration .inner::before {
-    background-color: rgba(128, 0, 255, 0.4);
-  }
-  .slider .box5 button {
-    background-color: #8000FF;
-  }
-  .slider .illustration {
-    grid-column: 2 / -1;
-    grid-row: 1 / -1;
-    justify-self: center;
   }
   @media only screen and (max-width: 800px) {
     .slider .illustration div {
@@ -327,90 +436,6 @@ html {
     opacity: 1 !important;
   }
 
-
-
-
-
-
-
-
-@media screen and (min-width:1025px){
-
-    
-.title{
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: -1vw;
-    background: #000;
-    color: #fff;
-    text-align: center;
-  }
-  .title > div{
-    height: 3vw;
-    font-size: 1.5rem;
-    line-height: 3.4vw;
-    overflow: hidden;
-  }
-  .move-box{
-    will-change: transform; 
-    overflow: hidden;
-  }
-  .marquee-wrap {
-      white-space: nowrap; 
-      display: flex; 
-      align-items: center; 
-      will-change: transform; 
-      width: 100%;
-    }
-    .marquee-box {
-      will-change: transform;
-    }
-    .marquee-wrap.ani{
-      animation: marquee 100s linear infinite;
-    }
-    @keyframes marquee {
-      from { transform: translateZ(0) }
-      to { transform: translate3d(-100%, 0, 0) }
-    }
-    /* mobile device : ~767px */
-    @media screen and (max-width:767px){
-
-        .title{
-            display : flex;
-            flex-wrap : wrap;
-            margin : 15vh auto;
-          }
-          .title > div{
-            height : 70px;
-            font-size : 70px;
-            line-height : 70px;
-          /*   border : 3px solid red; */
-            overflow : hidden;
-          }
-          .move-box{
-            will-change: transform; 
-            overflow: hidden;
-          }
-          .marquee-wrap {
-              white-space: nowrap; 
-              display: flex; 
-              align-items: center; 
-              will-change: transform; 
-              width: 100%;
-            }
-            .marquee-box {
-              will-change: transform;
-            }
-            .marquee-wrap.ani{
-              animation: marquee 100s linear infinite;
-            }
-            @keyframes marquee {
-              from { transform: translateZ(0) }
-              to { transform: translate3d(-100%, 0, 0) }
-            }
-    }
-    
-}
 
 @media screen and (min-width: 625px) {
 
