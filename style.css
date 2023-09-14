@@ -473,17 +473,25 @@ padding-bottom: 1.3vw;
   clear:both; /* float:left 의 줄바꿈을 위한 */
 }
 
-.shop_box{
-  left: 37vw;
-  position: absolute;
-  top: 260vw;
+
+.shop_box1>img{
+  width: 23vw;
+  height: 18vw;
+  margin-left: 40vw;
+  margin-top: 2vw;
 }
 
+.shop_box1>img>p:hover{
+  background-color: aliceblue;
+  color: #333;
+  font-size: 1.3rem;
+  text-align: center;
+  opacity: 1;
+}
 
-
-
-
-
+.shop_box1>img>p{
+  opacity: 0;
+}
 
 
 
