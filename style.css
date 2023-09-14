@@ -303,20 +303,25 @@ padding-bottom: 1.3vw;
 
 .best{
   margin-left: 7vw;
-  margin-top: 5vw;
+  margin-top: 3vw;
 }
 
 .best_box{
-  margin-left: 35vw;
-  margin-top: -43.7vw;
+  margin-left: 34.8vw;
+  margin-top: -46.7vw;
+}
+
+.best_box1>img{
+  width: 15vw;
+  height: 14vw;
+  margin-left: 3.7vw;
 }
 
 .best_box > .best_box1 {
   width: 26.5vw;
-  height: 19.9vw;
-  border: 1px solid #333;
+  height: 20.2vw;
   float: left;
-  margin: 1vw;
+  margin: 2.5vw;
   box-sizing: border-box; /* border 또한 위치값을 갖기에 div크기가 더 커짐을 방지하기 위한 */
 }
 .best_box > .best_box1:nth-child(3){
@@ -530,12 +535,13 @@ footer{
 
 .box_f1{
   float: left;
-  padding-left: 4vw;
+  padding-left: 3vw;
   margin-top: 15vw;
   border-right: 1px solid;
   line-height: 2vw;
-  padding-right: 3vw;
+  padding-right: 5vw;
   height: 10vw;
+  font-size: 1.7rem;
 }
 .box_f2{
   background-color: gainsboro;
@@ -546,13 +552,14 @@ footer{
   padding-left: 2vw;
   padding-top: 1vw;
   font-size: 1.7rem;
+  width: 100vw;
 }
 
 .logo{
-  width: 18vw;
-  height: 8vw;
-  margin-top: 17vw;
-  margin-left: -4vw;
+  width: 13vw;
+  height: 6vw;
+  margin-top: 35vw;
+  margin-left: -46vw;
 }
 
 footer>.box_f1{
