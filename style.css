@@ -372,9 +372,9 @@ padding-bottom: 1.3vw;
 .test_v{
   position: absolute;
   left: 69vw;
-  top: 193vw;
+  top: 197vw;
   width: 23vw;
-  height: 37vw;
+  height: 33vw;
 }
 
 .test_box1>img{
@@ -437,8 +437,8 @@ padding-bottom: 1.3vw;
 /*perfume_workshop*/
 
 .shop_mp{
-  margin-top: 3vw;
-  margin-left: 8vw;
+  margin-top: 0vw;
+  margin-left: 11vw;
 }
 .shop_mp1{
   margin-left: 8vw;
@@ -458,42 +458,67 @@ padding-bottom: 1.3vw;
   font-size: 3rem;
   font-weight: 600;
   margin-left: 40vw;
-  margin-bottom: 5vw;
+  margin-bottom: 8vw;
 
+}
+
+.h_3>h3{
+  font-size: 2.4rem;
+  margin-left: 54vw;
+  margin-top: 2vw;
+  margin-bottom: -4.7vw;
+  border-bottom: 1px solid;
+  width: 18vw;
+  line-height: 2vw;
+}
+
+.shop_box{
+  margin-left: 40vw;
+  margin-top: -30vw;
 }
 
 .shop_box > .shop_box1 {
-  width: 29vw;
-  height: 19.9vw;
+  width: 14.1vw;
+  height: 29.5vw;
   float: left;
-  margin: 1vw;
-  margin-bottom: 8vw;/* border 또한 위치값을 갖기에 div크기가 더 커짐을 방지하기 위한 */
-}
-.shop_box > .shop_box1:nth-child(3){
-  clear:both; /* float:left 의 줄바꿈을 위한 */
+  box-sizing: border-box;
+  border: 1px solid #B5B4B4;
+  margin: 0.7vw;/* border 또한 위치값을 갖기에 div크기가 더 커짐을 방지하기 위한 */
 }
 
-
-.shop_box1>img{
-  width: 23vw;
-  height: 18vw;
-  margin-left: 40vw;
-  margin-top: 2vw;
-}
-
-.shop_box1>img>p:hover{
-  background-color: aliceblue;
-  color: #333;
-  font-size: 1.3rem;
+.name{
   text-align: center;
-  opacity: 1;
+  font-size: 2rem;
 }
 
-.shop_box1>img>p{
-  opacity: 0;
+.shop_box > .shop_box1>img{
+  width: 14vw;
+  height: 17vw;
 }
 
+.after{
+  font-size: 1.4rem;
+  text-align: -webkit-center;
+}
 
+.line{
+  border-top: 1px double #333;
+  width: 10vw;
+}
+
+.view{
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding: 1vw;
+  margin-left: 1.7vw;
+  color: #333;
+}
+
+.line{
+  width: 75vw;
+  margin-left: -61vw;
+  border-bottom-style: double;
+}
 
   @media only screen and (max-width: 1300px) {
     body {
