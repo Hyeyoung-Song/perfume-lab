@@ -418,7 +418,6 @@ padding-bottom: 1.3vw;
   box-sizing: border-box;
   border: 1px solid #00b0dc;
   background-color: #00b0dc;
-  color: #fff;
   font-size: 2rem;
   font-weight: 600;
   padding: 0.5vw;
@@ -426,6 +425,15 @@ padding-bottom: 1.3vw;
   text-align: center;
   margin-top: -2.8vw;
 }
+
+.testc { color:#ffffff;   
+  -moz-transition:color .2s ease;   
+  -o-transition:color .2s ease;   
+  -ms-transition:color .2s ease;   
+  -webkit-transition:color .2s ease;   
+  transition:color .2s ease;   
+  } .testc:hover { color:#666666; } 
+
 
   @media only screen and (max-width: 1300px) {
     body {
