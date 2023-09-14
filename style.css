@@ -265,7 +265,7 @@ padding-bottom: 1.3vw;
   border-radius: 10px;
   box-shadow: 0 8px 10px -5px rgba(0, 0, 0, 0.2);
   top: -30px;
-  right: -50px;
+  right: -39px;
   bottom: auto;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
@@ -359,7 +359,7 @@ padding-bottom: 1.3vw;
   float: left;
   box-sizing: border-box;
   margin: 1vw;
-  margin-bottom: 3vw;/* border 또한 위치값을 갖기에 div크기가 더 커짐을 방지하기 위한 */
+  margin-bottom: 8vw;/* border 또한 위치값을 갖기에 div크기가 더 커짐을 방지하기 위한 */
 }
 .test_box > .best_box1:nth-child(3){
   clear:both; /* float:left 의 줄바꿈을 위한 */
@@ -371,10 +371,10 @@ padding-bottom: 1.3vw;
 
 .test_v{
   position: absolute;
-  left: 67vw;
-  top: 180vw;
-  width: 27vw;
-  height: 42vw;
+  left: 69vw;
+  top: 193vw;
+  width: 23vw;
+  height: 37vw;
 }
 
 .test_box1>img{
@@ -382,10 +382,15 @@ padding-bottom: 1.3vw;
   height: 15vw;
 }
 
+.test_mp{
+  margin-left: 57.5vw;
+  position: absolute;
+}
+
+
 .testp{
-  font-size: 2rem;
+  font-size: 2.3rem;
   margin-left: 0vw;
-  border-bottom: 1px solid;
   width: 19vw;
   text-align: center;
   font-weight: 600;
@@ -394,14 +399,33 @@ padding-bottom: 1.3vw;
   font-size: 1.5rem;
   margin-left: 0vw;
   text-align: center;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #333;
   width: 19vw;
   font-weight: 600;
+  padding-bottom: 0.7vw;
 }
 
-
-
-
+.testb{
+  font-size: 2rem;
+  font-weight: 700;
+  color: brown;
+  margin-left: 7.8vw;
+}
+.testb>a{
+  color: #333;
+}
+.testc{
+  box-sizing: border-box;
+  border: 1px solid #00b0dc;
+  background-color: #00b0dc;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 0.5vw;
+  width: 5vw;
+  text-align: center;
+  margin-top: -2.8vw;
+}
 
   @media only screen and (max-width: 1300px) {
     body {
