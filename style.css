@@ -520,6 +520,45 @@ padding-bottom: 1.3vw;
   border-bottom-style: double;
 }
 
+footer{
+  width: 100vw;
+  height: 60vw;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 13vw;
+}
+
+.box_f1{
+  float: left;
+  padding-left: 4vw;
+  margin-top: 15vw;
+  border-right: 1px solid;
+  line-height: 2vw;
+  padding-right: 3vw;
+  height: 10vw;
+}
+.box_f2{
+  background-color: gainsboro;
+  position: absolute;
+  bottom: -293.7vw;
+  text-align: initial;
+  line-height: 2vw;
+  padding-left: 2vw;
+  padding-top: 1vw;
+  font-size: 1.7rem;
+}
+
+.logo{
+  width: 18vw;
+  height: 8vw;
+  margin-top: 17vw;
+  margin-left: -4vw;
+}
+
+footer>.box_f1{
+margin-left: 1vw;
+}
+
   @media only screen and (max-width: 1300px) {
     body {
       padding: 0;
