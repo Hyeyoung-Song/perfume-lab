@@ -434,6 +434,58 @@ padding-bottom: 1.3vw;
   transition:color .2s ease;   
   } .testc:hover { color:#666666; } 
 
+/*perfume_workshop*/
+
+.shop_mp{
+  margin-top: 3vw;
+  margin-left: 8vw;
+}
+.shop_mp1{
+  margin-left: 8vw;
+  margin-bottom: 20.5vw;
+}
+
+.h_3>h1 {
+  width: 15vw;
+  font-size: 3.5rem;
+  border-bottom: 1px solid;
+  margin-left: 45vw;
+  font-weight: 500;
+  margin-top: 35vw;
+}
+
+.h_3>h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-left: 40vw;
+  margin-bottom: 5vw;
+
+}
+
+.shop_box > .shop_box1 {
+  width: 29vw;
+  height: 19.9vw;
+  float: left;
+  margin: 1vw;
+  margin-bottom: 8vw;/* border 또한 위치값을 갖기에 div크기가 더 커짐을 방지하기 위한 */
+}
+.shop_box > .shop_box1:nth-child(3){
+  clear:both; /* float:left 의 줄바꿈을 위한 */
+}
+
+.shop_box{
+  left: 37vw;
+  position: absolute;
+  top: 260vw;
+}
+
+
+
+
+
+
+
+
 
   @media only screen and (max-width: 1300px) {
     body {
