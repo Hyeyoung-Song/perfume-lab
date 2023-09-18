@@ -40,6 +40,7 @@ li {
 color: #fff;
 }
 
+.cam{display: none;}
 
   .slider .box {
     height: 100%;
@@ -451,7 +452,7 @@ color: #fff;
   .up {
     font-size: 2em;
     margin-left: 3vw;
-}
+
   }
   
   .up > a {
@@ -832,7 +833,8 @@ padding-bottom: 1.3vw;
 }
 
 .cam{
-  display: block;
+
+    margin-left: -36vw;
 }
 
   .slider .box {
@@ -1468,7 +1470,10 @@ padding-bottom: 1.3vw;
   
   .up > a {
     color: white;
-    font-size: 4rem;
+    font-size: 4.9rem;
+    font-weight: bold;
+    text-decoration: none;
+
   }
 
 .mini{
