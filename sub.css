@@ -254,11 +254,18 @@ h3 {
 
 }
 
+.box_f2{
+  margin-left: 2vw;
+  line-height: 1.9;
+}
+
 .spacer {
-  min-height: 50vh;
+  min-height: 39vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 102vw;
+  margin-left: -1vw;
 }
 
 .stagger {
@@ -355,4 +362,6 @@ h3 {
 
 .spacer {
   height: 10vh;
+  background-color: gainsboro;
 }
+
