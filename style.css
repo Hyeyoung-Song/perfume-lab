@@ -431,6 +431,8 @@ color: #fff;
   .container {
     position: relative;
     overflow: hidden;
+    margin-left: 2.8vw;
+    width: 100vw;
   }
 
 
@@ -621,6 +623,7 @@ padding-bottom: 1.3vw;
     background: #000;
     color: #fff;
     text-align: center;
+    
   }
   .title > div{
     height: 3vw;
@@ -739,11 +742,13 @@ padding-bottom: 1.3vw;
   
   .prev,
   .next {
-    width: 4rem;
+    width: 3.5rem;
     cursor: pointer;
     opacity: .2;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
+    margin-top: -22vw;
+    margin-left: 3vw;
   }
   .trail div:hover {
     opacity: .6;
@@ -752,7 +757,9 @@ padding-bottom: 1.3vw;
   .active {
     opacity: 1 !important;
   }
-
+  .next{
+    margin-left: 94vw;
+  }
 
 }
 
