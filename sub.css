@@ -448,9 +448,9 @@
   }
   
   h1 {
-    font-size: 3rem;
+    font-size: 2.2rem;
     text-align: center;
-    line-height: 4.2vw;
+    line-height: 12.2vw;
     margin: 0 auto;
     border-bottom: 1px solid;
     margin-top: 25vw;
@@ -462,16 +462,16 @@
   }
   
   .production{
-    width: 55vw;
+    width: 89vw;
     margin-top: 5vw;
   }
   
   .heading h1 {
     text-align: center;
-    line-height: 4.2vw;
-    margin-top: 33vw;
+    line-height: 8.2vw;
+    margin-top: 124vw;
     color: #111;
-    font-size: 4rem;
+    font-size: 2.2rem;
     z-index: -10;
     font-weight: 600;
     border-bottom: 1px solid;
@@ -501,14 +501,11 @@
   
   .image-grid {
     position: relative;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1);
     grid-template-rows: repeat(1, 1fr);
-    grid-column-gap: 1.2rem;
-    grid-row-gap: 0.2rem;
-    width: 70vw;
-    margin: 0 auto;
-    padding-top: 40vh;
+    grid-column-gap: -4.8rem;
+    width: 98vw;
+    padding-top: 25vh;
     z-index: -1;
   }
   .image-grid .image_cont {
@@ -529,7 +526,9 @@
   }
   .image-grid .image_cont:nth-child(2) {
     grid-column: 3;
-    grid-row: 2;
+    display: none;
+    grid-row: 2;ㅍ
+}
   }
   .image-grid .image_cont:nth-child(3) {
     grid-column: 2;
@@ -597,7 +596,7 @@
   }
   
   .spacer {
-    min-height: 39vh;
+    min-height: 66vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -634,12 +633,12 @@
   }
   
   .bars .bar p{
-    margin-top: -39vw;
-    width: 49vw;
+    margin-top: -112vw;
+    width: 64vw;
     text-align: center;
     font-size: 1.3rem;
-    margin-left: -23.8vw;
-    line-height: 2vw;
+    margin-left: -25.5vw;
+    line-height: 9vw;
   }
   .sub_middle1{
     margin-top: 5vw;
