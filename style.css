@@ -126,8 +126,8 @@ color: #fff;
     font-size: 12px;
     border-radius: 10px;
     box-shadow: 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-    top: -30px;
-    right: -39px;
+    top: -2.4vw;
+    right: 7vw;
     bottom: auto;
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
@@ -163,21 +163,22 @@ color: #fff;
   }
   
   .best_box{
-    margin-left: 34.8vw;
-    margin-top: -36.5vw;
+    margin-left: 37.8vw;
+    margin-top: -61.5vw;
   }
   
   .best_box1>img{
-    width: 9vw;
-    height: 8vw;
-    margin-left: 3.7vw;
+    width: 15vw;
+    height: 14vw;
+    margin-left: 2.7vw;
+
   }
   
   .best_box > .best_box1 {
-    width: 16.5vw;
-    height: 9.2vw;
+    width: 23.5vw;
+    height: 24.2vw;
     float: left;
-    margin: 2.5vw;
+    margin: 3.5vw;
     box-sizing: border-box; /* border 또한 위치값을 갖기에 div크기가 더 커짐을 방지하기 위한 */
   }
   .best_box > .best_box1:nth-child(3){
@@ -187,7 +188,7 @@ color: #fff;
   /*perfume lab test*/
   
   .h_2>h1 {
-    width: 10vw;
+    width: 17vw;
     font-size: 3.5rem;
     border-bottom: 1px solid;
     margin-left: 45vw;
@@ -221,7 +222,7 @@ color: #fff;
     float: left;
     box-sizing: border-box;
     margin: 1vw;
-    margin-bottom: 8vw;/* border 또한 위치값을 갖기에 div크기가 더 커짐을 방지하기 위한 */
+    margin-bottom: 13vw;/* border 또한 위치값을 갖기에 div크기가 더 커짐을 방지하기 위한 */
   }
   .test_box > .best_box1:nth-child(3){
     clear:both; /* float:left 의 줄바꿈을 위한 */
@@ -233,10 +234,10 @@ color: #fff;
   
   .test_v{
     position: absolute;
-    left: 69vw;
-    top: 204vw;
-    width: 17vw;
-    height: 26vw;
+    left: 71vw;
+    top: 245vw;
+    width: 23vw;
+    height: 33vw;
   }
   
   .test_box1>img{
@@ -245,9 +246,9 @@ color: #fff;
   }
   
   .test_mp{
-    margin-left: 57.5vw;
+    margin-left: 56.5vw;
     position: absolute;
-    margin-top: 3vw;
+    margin-top: 0vw;
   }
   
   
@@ -263,7 +264,7 @@ color: #fff;
     margin-left: 0vw;
     text-align: center;
     border-bottom: 1px solid #333;
-    width: 19vw;
+    width: 23vw;
     font-weight: 600;
     padding-bottom: 0.7vw;
   }
@@ -285,8 +286,8 @@ color: #fff;
     font-weight: 600;
     padding: 0.2vw;
     text-align: center;
-    margin-top: -1.8vw;
-    width: 2.3vw;
+    margin-top: -2.8vw;
+    width: 4.3vw;
 
   }
   
@@ -303,8 +304,9 @@ color: #fff;
     padding-top: 35vw;
   }
   .shop_mp{
-    margin-top: 0vw;
-    margin-left: 11vw;
+    margin-top: 6vw;
+    margin-left: 20vw;
+
   }
   .shop_mp1{
     margin-left: 8vw;
@@ -312,7 +314,7 @@ color: #fff;
   }
   
   .h_3>h1 {
-    width: 11vw;
+    width: 20vw;
     font-size: 3.5rem;
     border-bottom: 1px solid;
     margin-left: 45vw;
@@ -330,23 +332,23 @@ color: #fff;
   
   .h_3>h3{
     font-size: 2.4rem;
-    margin-left: 44vw;
-    margin-top: 1vw;
-    margin-bottom: 5.3vw;
+    margin-left: 56vw;
+    margin-top: -2vw;
+    margin-bottom: -0.7vw;
     border-bottom: 1px solid;
-    width: 14vw;
+    width: 24vw;
     line-height: 2vw;
-}
+
   }
   
   .shop_box{
-    margin-left: 38vw;
-    margin-top: -28vw;
+    margin-left: 46vw;
+    margin-top: -37vw;
   }
   
   .shop_box > .shop_box1 {
     width: 14.1vw;
-    height: 25.5vw;
+    height: 36.5vw;
     float: left;
     box-sizing: border-box;
     border: 1px solid #B5B4B4;
@@ -374,10 +376,10 @@ color: #fff;
   }
   
   .view{
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: 600;
     padding: 1vw;
-    margin-left: 1.7vw;
+    margin-left: 2.7vw;
     color: #333;
   }
   
@@ -408,10 +410,11 @@ color: #fff;
   .box_f2{
     background-color: gainsboro;
     position: absolute;
-    bottom: -324.7vw;
+    bottom: -341.7vw;
+    left: 0vw;
     text-align: initial;
     line-height: 2vw;
-    padding-left: 2vw;
+    padding-left: 3vw;
     padding-top: 1vw;
     font-size: 1.7rem;
     width: 100vw;
@@ -421,8 +424,8 @@ color: #fff;
   .logo{
     width: 10vw;
     height: 5vw;
-    margin-top: 47vw;
-    margin-left: -52vw;
+    margin-top: 42vw;
+    margin-left: -36vw;
   }
   
   footer>.box_f1{
@@ -434,8 +437,7 @@ color: #fff;
     position: relative;
     overflow: hidden;
     margin-left: -1.2vw;
-    width: 100vw;
-
+    width: 104vw;
   }
 
 
@@ -568,7 +570,7 @@ padding-bottom: 1.3vw;
 }
 
 .h_1>h1{
-  width: 3.4vw;
+  width: 4.4vw;  
   font-size: 3.3rem;
   border-bottom: 1px solid;
   margin-left: 45vw;
@@ -620,13 +622,15 @@ padding-bottom: 1.3vw;
 
     
 .title{
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: -1vw;
-    background: #000;
-    color: #fff;
-    text-align: center;
-    margin-left: -1vw;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -1vw;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  margin-left: -1vw;
+  width: 110vw;
+
   }
   .title > div{
     height: 3vw;
@@ -750,7 +754,7 @@ padding-bottom: 1.3vw;
     opacity: .2;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
-    margin-top: -22vw;
+    margin-top: -28vw;
     margin-left: 3vw;
   }
   .trail div:hover {
