@@ -608,12 +608,12 @@
   }
   
   .spacer {
-    min-height: 66vh;
+    min-height: 77vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 102vw;
-    margin-left: -1vw;
+    width: 106vw;
+    margin-left: -3vw;
   }
   
   .stagger {
