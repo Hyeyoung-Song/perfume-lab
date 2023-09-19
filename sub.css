@@ -641,13 +641,13 @@
   }
   
   .bars .bar p{
-    margin-top: -36vw;
-    width: 51vw;
+    margin-top: -23vw; */
+    width: 57vw;
     text-align: center;
     font-size: 1.3rem;
-    margin-left: -28.5vw;
-    line-height: 3vw;
-}
+    margin-left: -20.5vw;
+    line-height: 8vw;
+
   }
   .sub_middle1{
     margin-top: 5vw;
