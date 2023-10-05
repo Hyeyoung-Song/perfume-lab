@@ -263,16 +263,16 @@
   
   .box_f2{
     margin-left: 2vw;
-    line-height: 2.5vw;
-    font-size: 1rem;
+    line-height: 1.7vw;
+    font-size: 0.9rem;
   }
   
   .spacer {
-    min-height: 39vh;
+    min-height: 30vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 102vw;
+    width: 100vw;
     margin-left: -1vw;
   }
   
@@ -369,7 +369,6 @@
   }
   
   .spacer {
-    height: 10vh;
     background-color: gainsboro;
   }
   
