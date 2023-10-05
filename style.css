@@ -234,14 +234,14 @@ color: #fff;
   
   .test_v{
     position: absolute;
-    left: 71vw;
-    top: 245vw;
-    width: 23vw;
-    height: 33vw;
+    left: 72vw;
+    top: 208vw;
+    width: 20vw;
+    height: 30vw;
   }
   
   .test_box1>img{
-    width: 19vw;
+    width: 15vw;
     height: 15vw;
   }
   
@@ -255,17 +255,17 @@ color: #fff;
   .testp{
     font-size: 2.3rem;
     margin-left: 0vw;
-    width: 19vw;
+    width: 15vw;
     text-align: center;
     font-weight: 600;
   }
-  
+
   .testa{
     font-size: 1.5rem;
     margin-left: 0vw;
     text-align: center;
     border-bottom: 1px solid #333;
-    width: 19vw;
+    width: 15vw;
     font-weight: 600;
     padding-bottom: 0.7vw;
   }
@@ -274,7 +274,7 @@ color: #fff;
     font-size: 2rem;
     font-weight: 700;
     color: brown;
-    margin-left: 7.8vw;
+    margin-left: 6.5vw;
   }
 
   .testb>a{
@@ -285,12 +285,13 @@ color: #fff;
     box-sizing: border-box;
     border: 1px solid #00b0dc;
     background-color: #00b0dc;
-    font-size: 1.3rem;
+    font-size: 2rem;
     font-weight: 600;
-    padding: 0.2vw;
+    padding-top: 0.5vw;
     text-align: center;
-    margin-top: -2.8vw;
+    margin-top: -2.7vw;
     width: 4.3vw;
+    height: 2vw;
   }
   
   .testc { 
