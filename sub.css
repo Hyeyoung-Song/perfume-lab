@@ -136,9 +136,9 @@
   .heading h1 {
     text-align: center;
     line-height: 4.2vw;
-    margin-top: 23vw;
+    margin-top: 35vw;
     color: #111;
-    font-size: 4rem;
+    font-size: 3rem;
     z-index: -10;
     font-weight: 600;
     border-bottom: 1px solid;
@@ -244,13 +244,16 @@
     width: 50vw;
     text-align: -webkit-center;
     margin-top: -21vw;
+    font-size: 1rem;
   }
   .middle1{
-  
     line-height: 1.6;
-  
   }
   
+  .middle2{
+    font-size: 1rem;
+  }
+
   .non{
     text-align: center;
     margin-left: 1vw;
@@ -260,7 +263,8 @@
   
   .box_f2{
     margin-left: 2vw;
-    line-height: 1.7;
+    line-height: 2.5vw;
+    font-size: 1rem;
   }
   
   .spacer {
@@ -301,13 +305,12 @@
   }
   
   .bars .bar p{
-    margin-top: -39vw;
-    width: 49vw;
+    margin-top: -45vw;
+    width: 52vw;
     text-align: center;
-    font-size: 1.3rem;
-    margin-left: -17.8vw;
+    font-size: 1rem;
+    margin-left: -22.8vw;
     line-height: 2vw;
-
   }
   .sub_middle1{
     margin-top: 5vw;
