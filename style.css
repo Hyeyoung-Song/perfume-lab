@@ -416,7 +416,7 @@ color: #fff;
     padding-left: 3vw;
     padding-top: 1vw;
     font-size: 1.7rem;
-    width: 100vw;
+    width: 97.5vw;
 }
   
   
@@ -467,8 +467,8 @@ color: #fff;
   }
 
 .mini{
-    margin-left: 38vw;
-    margin-top: 14vw;
+  margin-left: 40vw;
+  margin-top: 10vw;
 }
 .slider_p1{
     font-size: 2.2rem;
@@ -505,11 +505,11 @@ color: #fff;
 
 .mini2{
     margin-left: -25vw;
-    margin-top: 14vw;
+    margin-top: 10vw;
 }
 .mini3{
-    margin-left: -1vw;
-    margin-top: 12vw;
+  margin-left: -1vw;
+  margin-top: 12vw;
 }
 .mini4{
     margin-left: -1vw;
