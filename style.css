@@ -308,8 +308,8 @@ color: #fff;
     padding-top: 35vw;
   }
   .shop_mp{
-    margin-top: 6vw;
-    margin-left: 20vw;
+    margin-top: 5vw;
+    margin-left: 10vw;
 
   }
   .shop_mp1{
@@ -318,7 +318,7 @@ color: #fff;
   }
   
   .h_3>h1 {
-    width: 20vw;
+    width: 11vw;
     font-size: 3.5rem;
     border-bottom: 1px solid;
     margin-left: 45vw;
@@ -336,27 +336,27 @@ color: #fff;
   
   .h_3>h3{
     font-size: 2.4rem;
-    margin-left: 56vw;
+    margin-left: 44vw;
     margin-top: -2vw;
-    margin-bottom: -0.7vw;
+    margin-bottom: 2.5vw;
     border-bottom: 1px solid;
-    width: 24vw;
-    line-height: 2vw;
+    width: 14vw;
+    line-height: 1.8vw;
 
   }
   
   .shop_box{
-    margin-left: 46vw;
-    margin-top: -37vw;
+    margin-left: 35vw;
+    margin-top: -28vw;
   }
   
   .shop_box > .shop_box1 {
     width: 14.1vw;
-    height: 36.5vw;
+    height: 26.5vw;
     float: left;
     box-sizing: border-box;
     border: 1px solid #B5B4B4;
-    margin: 0.7vw;/* border 또한 위치값을 갖기에 div크기가 더 커짐을 방지하기 위한 */
+    margin: 1.4vw;
   }
   
   .name{
@@ -380,8 +380,7 @@ color: #fff;
   }
   
   .view{
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-size: 2.5rem;
     padding: 1vw;
     margin-left: 2.7vw;
     color: #333;
@@ -403,39 +402,35 @@ color: #fff;
   
   .box_f1{
     float: left;
-    padding-left: 3vw;
+    padding-left: 7vw;
     margin-top: 15vw;
     border-right: 1px solid;
     line-height: 2vw;
     padding-right: 5vw;
     height: 10vw;
-    font-size: 1.7rem;
+    font-size: 2.4rem;
   }
   .box_f2{
     background-color: gainsboro;
-    position: absolute;
-    bottom: -341.7vw;
+    bottom: -302.7vw;
     left: 0vw;
     text-align: initial;
     line-height: 2vw;
-    padding-left: 3vw;
-    padding-top: 1vw;
+    padding-left: 2vw;
+    padding-top: 2vw;
     font-size: 1.7rem;
-    width: 97.5vw;
+    width: 98vw;
+    margin-top: 6vw;
+    font-size: 2rem;
 }
   
   
   .logo{
     width: 10vw;
     height: 5vw;
-    margin-top: 42vw;
-    margin-left: -36vw;
+    margin-top: 33vw;
+    margin-left: -28vw;
   }
-  
-  footer>.box_f1{
-  margin-left: 1vw;
-  }
-  
 
   .container {
     position: relative;
