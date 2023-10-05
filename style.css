@@ -127,7 +127,7 @@ color: #fff;
     border-radius: 10px;
     box-shadow: 0 8px 10px -5px rgba(0, 0, 0, 0.2);
     top: -2.4vw;
-    right: 7vw;
+    right: -3vw;
     bottom: auto;
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
@@ -137,6 +137,8 @@ color: #fff;
     padding: 8px 30px;
     font-size: 11px;
   }
+
+  
   .version:before {
     content: '';
     position: absolute;
